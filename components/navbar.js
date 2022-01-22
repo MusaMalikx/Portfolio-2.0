@@ -97,9 +97,9 @@ import {
                                 <NextLink href="/posts" passHref>
                                     <MenuItem as={Link}>Posts</MenuItem>
                                 </NextLink>
-                                <MenuItem as={Link} href="https://www.youtube.com">
+                                {/* <MenuItem as={Link} href="https://www.youtube.com">
                                     View Source
-                                </MenuItem>
+                                </MenuItem> */}
                             </MenuList>
                         </Menu>
                     </Box>
