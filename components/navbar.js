@@ -73,9 +73,9 @@ import {
                     <LinkItem href="/works" path={path}>
                         Works
                     </LinkItem>
-                    <LinkItem href="/posts" path={path}>
+                    {/* <LinkItem href="/posts" path={path}>
                         Posts
-                    </LinkItem>
+                    </LinkItem> */}
                 </Stack>
                 <Box flex={1} align="right">
                     <ThemeToggleButton/>
@@ -88,15 +88,15 @@ import {
                                 aria-label="Options"
                             />
                             <MenuList>
-                                <NextLink href="/" passHref>
+                                {/* <NextLink href="/" passHref>
                                     <MenuItem as={Link}>About</MenuItem>
-                                </NextLink>
+                                </NextLink> */}
                                 <NextLink href="/works" passHref>
                                     <MenuItem as={Link}>Works</MenuItem>
                                 </NextLink>
-                                <NextLink href="/posts" passHref>
+                                {/* <NextLink href="/posts" passHref>
                                     <MenuItem as={Link}>Posts</MenuItem>
-                                </NextLink>
+                                </NextLink> */}
                                 {/* <MenuItem as={Link} href="https://www.youtube.com">
                                     View Source
                                 </MenuItem> */}
