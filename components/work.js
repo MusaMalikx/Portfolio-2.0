@@ -1,12 +1,23 @@
 import NextLink from "next/link";
-import { Heading, Box, Image, Link, Badge, useColorModeValue } from "@chakra-ui/react";
+import {
+  Heading,
+  Box,
+  Image,
+  Link,
+  Badge,
+  Button,
+} from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 
 export const Title = ({ children }) => {
   return (
     <Box>
       <NextLink href="/works">
-        <Link color='#DA1212'>Works</Link>
+        <Link>
+          <Button variant="link" colorScheme="red">
+            Works
+          </Button>
+        </Link>
       </NextLink>
       <span>
         &nbsp;
