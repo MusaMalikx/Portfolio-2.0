@@ -25,7 +25,7 @@ import {
         <NextLink href={href}>
             <Link 
                 p={2} 
-                bg={active ? 'glassTeal' : undefined}
+                bg={active ? 'glassRed' : undefined}
                 color={active ? '#202023' : inActiveColor}
             >
                 {children}

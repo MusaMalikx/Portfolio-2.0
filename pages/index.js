@@ -32,7 +32,7 @@ const Page = () => {
       <Container>
         <Box
           borderRadius="lg"
-          bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+          bg={useColorModeValue("whiteAlpha.600", "whiteAlpha.200")}
           mb={6}
           p={3}
           align="center"
@@ -41,7 +41,7 @@ const Page = () => {
         </Box>
         <Box display={{ md: "flex" }}>
           <Box flexGrow={1}>
-            <Heading as="h2" variant="page-title">
+            <Heading as="h2" variant="page-title" >
               Musa Malik
             </Heading>
             <p>( Artist / Developer / Designer )</p>
@@ -78,7 +78,7 @@ const Page = () => {
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              <Button rightIcon={<ChevronRightIcon />} bg="#e63946">
                 My Portfolio
               </Button>
             </NextLink>
@@ -120,7 +120,7 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             On the web
           </Heading>
-    
+
           <SimpleGrid columns={3} align="center">
             <Box>
               <Link
@@ -129,7 +129,8 @@ const Page = () => {
               >
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  color="rgb(255, 23, 50)"
+                  colorScheme="red"
                   leftIcon={<Icon as={IoLogoInstagram} />}
                 >
                   Instagram
@@ -143,7 +144,8 @@ const Page = () => {
               >
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  color="rgb(255, 23, 50)"
+                  colorScheme="red"
                   leftIcon={<Icon as={IoLogoFacebook} />}
                 >
                   Facebook
@@ -154,7 +156,8 @@ const Page = () => {
               <Link href="https://github.com/MusaMalikx" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  color="rgb(255, 23, 50)"
+                  colorScheme="red"
                   leftIcon={<Icon as={IoLogoGithub} />}
                 >
                   Github
