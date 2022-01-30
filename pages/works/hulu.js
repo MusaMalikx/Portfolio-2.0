@@ -1,4 +1,12 @@
-import { Badge, Link, Container, ListItem, List, Icon, Button } from "@chakra-ui/react";
+import {
+  Badge,
+  Link,
+  Container,
+  ListItem,
+  List,
+  Icon,
+  Button,
+} from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Title, WorkImage, Meta } from "../../components/work";
 import P from "../../components/paragraph";
@@ -7,26 +15,23 @@ import { IoLink, IoLogoGithub } from "react-icons/io5";
 
 const Work = () => {
   return (
-    <Layout title="Netflix">
+    <Layout title="Hulu">
       <Container>
         <Title>
-          Netflix <Badge>2020</Badge>
+          Hulu <Badge>2020</Badge>
         </Title>
-        <P>A Netlix clone app to watch Movies and TV Series</P>
+        <P>A frontend Hulu clone app to watch Movies and TV Series</P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link
-              href="https://netflix-2-0.vercel.app"
-              target="_blank"
-              >
-               <Button
+            <Link href="https://hulu-tau-gules.vercel.app" target="_blank">
+              <Button
                 variant="link"
                 colorScheme="red"
                 fontSize={13}
                 leftIcon={<Icon as={IoLink} />}
               >
-                https://netflix-2-0.vercel.app  <ExternalLinkIcon mx="2px" />
+                https://hulu-tau-gules.vercel.app <ExternalLinkIcon mx="2px" />
               </Button>
             </Link>
           </ListItem>
@@ -36,14 +41,14 @@ const Work = () => {
           </ListItem> */}
           <ListItem>
             <Meta>Stack</Meta>
-            <span>ReactJS, Redux, Firebase</span>
+            <span>ReactJS, Redux</span>
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
 
             <Link
               color="#DA1212"
-              href="https://github.com/MusaMalikx/Netflix-2.0"
+              href="https://github.com/MusaMalikx/hulu"
               target="_blank"
             >
               <Button
@@ -52,14 +57,14 @@ const Work = () => {
                 leftIcon={<Icon as={IoLogoGithub} />}
                 fontSize={13}
               >
-                https://github.com/MusaMalikx/Netflix-2.0  <ExternalLinkIcon mx="2px" />
+                https://github.com/MusaMalikx/hulu <ExternalLinkIcon mx="2px" />
               </Button>
             </Link>
           </ListItem>
         </List>
 
-        <WorkImage src="/images/works/netflix_01.PNG" alt="netflix" />
-        <WorkImage src="/images/works/netflix_02.PNG" alt="netflix" />
+        <WorkImage src="/images/works/hulu_01.PNG" alt="hulu" />
+        <WorkImage src="/images/works/hulu_02.PNG" alt="hulu" />
       </Container>
     </Layout>
   );

@@ -35,11 +35,11 @@ const Works = () => {
                             Hulu Clone to watch buy Movies and Series
                         </WorkGridItem>
                     </Section>
-                    <Section delay={0.5}>
+                    {/* <Section delay={0.5}>
                         <WorkGridItem id="keeper" title="Keeper" thumbnail={thumbKeeper}>
                             Google Keep Clone to note important points and things
                         </WorkGridItem>
-                    </Section>
+                    </Section> */}
                 </SimpleGrid>
             </Container>
         </Layout>
