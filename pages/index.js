@@ -95,11 +95,11 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2017</BioYear>
-            Compeleted my Matriculation from Unique School System
+            Completed my Matriculation from Unique School System
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Compeleted my Intermediate from Forman Christian College
+            Completed my Intermediate from Forman Christian College
           </BioSection>
           <BioSection>
             <BioYear>2020 - Present</BioYear>
