@@ -32,7 +32,7 @@ const Page = () => {
       <Container>
         <Box
           borderRadius="lg"
-          bg={useColorModeValue("whiteAlpha.600", "whiteAlpha.200")}
+          bg={useColorModeValue("#DFDFDE", "whiteAlpha.200")}
           mb={6}
           p={3}
           align="center"
@@ -41,10 +41,10 @@ const Page = () => {
         </Box>
         <Box display={{ md: "flex" }}>
           <Box flexGrow={1}>
-            <Heading as="h2" variant="page-title" >
+            <Heading as="h2" variant="page-title">
               Musa Malik
             </Heading>
-            <p>( Artist / Developer / Designer )</p>
+            <p>( Developer )</p>
           </Box>
           <Box
             flexShrink={0}
